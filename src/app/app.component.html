@@ -1,21 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 <div style="text-align:center">
   <h1>
-    Your {{ title }}
+    Bem vindo ao {{ title }}
   </h1>
-  <img src="../assets/principal/bjorn02.jpg" alt="" id="img_principal">
-</div>
-<nav class="navbar navbar-inverse fixed-bottom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        <img src="../dog.png"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 alt="">
-      </a>
+  <div class="card mb-3" id="cardPrincipal">
+    <img class="card-img-bottom" src="../assets/principal/bjorn02.jpg" alt="Imagem Principal">
+    <div class="card-body">
+        <h5 class="card-title">{{ PetNome }}</h5>
+        <p class="card-text"><b>Raça:</b> {{ PetRaca }}</p>
+        <p class="card-text"><b>Data de Nascimento:</b> {{ PetDtaNasc }}</p>
     </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#">Alimentação</a></li>
-      <li><a href="#">Higiene</a></li>
-      <li><a href="#">Passeios</a></li>
-    </ul>
   </div>
-</nav>
+</div>

@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Pet!';
+  PetNome = 'BJORN';
+  PetRaca = 'Boder Collie';
+  PetDtaNasc = '25/11/2016';
 }
