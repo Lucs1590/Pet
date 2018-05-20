@@ -4,12 +4,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<div style="text-align:center">
+<div id="divPrincipal">
   <h1>
     Bem vindo ao {{ title }}
   </h1>
-  <div class="card mb-3" id="cardPrincipal">
-    <img class="card-img-bottom" src="../assets/principal/bjorn02.jpg" alt="Imagem Principal">
+  <div class="card" id="cardPrincipal">
+    <img class="card-img-top" src="../assets/principal/bjorn02.jpg"  id="imgPrincipal" alt="Imagem Principal">
     <div class="card-body">
         <h5 class="card-title">{{ PetNome }}</h5>
         <p class="card-text"><b>Raça:</b> {{ PetRaca }}</p>
