@@ -6,3 +6,7 @@
     background-color: #F1B8C7;
     border-radius: 10px;
 }
+
+html, body{
+    height: 100%;
+}
