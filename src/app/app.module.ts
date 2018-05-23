@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { AlimentacaoComponent } from './alimentacao/alimentacao.component';
 import { PasseioComponent } from './passeio/passeio.component';
 import { HigieneVermesComponent } from './higiene-vermes/higiene-vermes.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlimentacaoComponent,
     PasseioComponent,
-    HigieneVermesComponent
+    HigieneVermesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
