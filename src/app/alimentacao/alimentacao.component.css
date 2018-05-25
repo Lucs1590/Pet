@@ -1,0 +1,19 @@
+#divPrincipal{
+    text-align:center;
+    background-color:#A9596E;
+    min-height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #FFFF;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3.75rem;
+}
+
+#check1{
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 10px;
+}

@@ -12,4 +12,6 @@ export class AlimentacaoComponent implements OnInit {
   ngOnInit() {
   }
 
+  Data = '27/04/2018';
+
 }
