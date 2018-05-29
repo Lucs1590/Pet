@@ -6,6 +6,31 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#divCheckGeral{
+	border: 1px solid;
+	position: absolute;
+	width: 14rem;
+	left: 50%;
+	margin-left: -7rem;
+	height: 6rem;
+	margin-top: -1.75rem;
+	top: 40%;
+}
+
+#divIcon{
+	border: 1px solid;
+	position: relative;
+	width: 14rem;
+	height: 2.5rem;
+}
+
+#divCheck{
+	border: 1px solid;
+	position: relative;
+	width: 14rem;
+	height: 3.5rem;
+}
+
 h1{
     color: #FFFF;
     font-family: 'Dosis', sans-serif;
@@ -42,4 +67,15 @@ h1{
 	margin-bottom: -0.5rem;
 	left: 0.75rem;
 	color: #57A639;
+}
+
+#btnOK{
+	background-color: #F10F49;
+	border-radius: 80px;
+	padding: 1rem;
+	color: #FFFFFF;
+	left: 10%;
+	margin-left: -0.5rem;
+	margin-top: -1.75rem;
+	top: 50%;
 }
