@@ -3,17 +3,18 @@
 <div id="divPrincipal">
     <h1>{{ Data }}</h1>
     <div id="divCheckGeral">
-        <div id="divIcon">
-            o
-        </div>
-        <div id="divCheck">
-            <label for="cafe">C</label>
-            <input type="checkbox" id="cafe" class="regular-checkbox big-checkbox" />
-            <label for="almoco">A</label>
-            <input type="checkbox" id="almoco" class="regular-checkbox big-checkbox" />
-            <label for="janta">J</label>
-            <input type="checkbox" id="janta" class="regular-checkbox big-checkbox" />
-        </div>
+            <div class="divCheckIndividual">
+                    <label for="cafe" style="margin-bottom:0.12rem;"><img src="/assets/icons/cafe.png" alt="cafe" class="icon"></label>
+                    <input type="checkbox" id="cafe" name="cafe" class="regular-checkbox big-checkbox" />
+            </div>
+            <div class="divCheckIndividual">
+                    <label for="almoco" style="margin-bottom:0.12rem;"><img src="/assets/icons/almoco.png" alt="almoco" class="icon"></label>
+                    <input type="checkbox" id="almoco" name="almoco" class="regular-checkbox big-checkbox" />
+            </div>
+            <div class="divCheckIndividual">
+                    <label for="janta" style="margin-bottom:0.12rem;"><img src="/assets/icons/janta.png" alt="janta" class="icon"></label>
+                    <input type="checkbox" id="janta" name="janta" class="regular-checkbox big-checkbox" />
+            </div>
     </div>
     <button type="button" class="btn" id="btnOK" >OK</button>
     <br>

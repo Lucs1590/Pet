@@ -6,35 +6,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#divCheckGeral{
-	border: 1px solid;
-	position: absolute;
-	width: 14rem;
-	left: 50%;
-	margin-left: -7rem;
-	height: 6rem;
-	margin-top: -1.75rem;
-	top: 40%;
-}
-
-#divIcon{
-	border: 1px solid;
-	position: relative;
-	width: 14rem;
-	height: 2.5rem;
-}
-
-#divCheck{
-	border: 1px solid;
-	position: relative;
-	width: 14rem;
-	height: 3.5rem;
-}
-
 h1{
     color: #FFFF;
     font-family: 'Dosis', sans-serif;
     font-size: 3.75rem;
+}
+
+#divCheckGeral{
+	position: absolute;
+	width: 14rem;
+	left: 50%;
+	margin-left: -7rem;
+	height: 7rem;
+	margin-top: -1.75rem;
+	top: 40%;
+}
+
+.icon{
+	width: 3.4rem;
+	height: 3.4rem;
+}
+
+.divCheckIndividual{
+	float:left;
+	margin-right:0.81rem;
+	margin-left:0.81rem;
+	width: 3rem;
 }
 
 .regular-checkbox {
