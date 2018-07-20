@@ -66,13 +66,20 @@ h1{
 	color: #57A639;
 }
 
+#divOK{
+	position: absolute;
+	width: 3.75rem;
+	left: 50%;
+	margin-left: -1.875rem;
+	height: 3.75rem;
+	margin-top: -1.875rem;
+	top: 70%;
+}
 #btnOK{
 	background-color: #F10F49;
 	border-radius: 80px;
 	padding: 1rem;
 	color: #FFFFFF;
-	left: 10%;
 	margin-left: -0.5rem;
 	margin-top: -1.75rem;
-	top: 50%;
 }
