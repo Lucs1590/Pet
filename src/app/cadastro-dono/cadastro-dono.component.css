@@ -1,7 +1,28 @@
 #divPrincipal{
-    text-align:center;
     background-color:#A9596E;
     min-height: 100%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    color: black;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    color: black;
+    background-color : #F1B8C7;
+}
+
+#divSalvar{
+	position: absolute;
+	width: 5rem;
+	left: 50%;
+	margin-left: -2.5rem;
+}
+
+#btnSalvar{
+    background-color: #79404F;
+    text-align: center;
+    width: 5rem;
 }

@@ -94,7 +94,8 @@ h1{
     border: none;
     cursor:pointer;
     overflow: hidden;
-    outline:none;
+	outline:none;
+	box-shadow: 0 0 0;
 	position: absolute;
     right: 0;
 }
