@@ -9,7 +9,10 @@
 h1{
     color: #FFFF;
     font-family: 'Dosis', sans-serif;
-    font-size: 3.75rem;
+	font-size: 3.75rem;
+	position: absolute;
+    left: 50%;
+    margin-left: -8.406rem;
 }
 
 #divCheckGeral{
@@ -75,6 +78,7 @@ h1{
 	margin-top: -1.875rem;
 	top: 70%;
 }
+
 #btnOK{
 	background-color: #F10F49;
 	border-radius: 80px;
@@ -82,4 +86,15 @@ h1{
 	color: #FFFFFF;
 	margin-left: -0.5rem;
 	margin-top: -1.75rem;
+}
+
+#btnRelatorio{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	position: absolute;
+    right: 0;
 }
