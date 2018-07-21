@@ -23,6 +23,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 #btnSalvar{
     background-color: #79404F;
+    color: #FFFFFF;
     text-align: center;
     width: 5rem;
 }
