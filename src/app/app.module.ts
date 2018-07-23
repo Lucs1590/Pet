@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { CadastroPetComponent } from './cadastro-pet/cadastro-pet.component';
 import { CadastroDonoComponent } from './cadastro-dono/cadastro-dono.component';
+import { PerfilDonoComponent } from './perfil-dono/perfil-dono.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CadastroDonoComponent } from './cadastro-dono/cadastro-dono.component';
     HigieneVermesComponent,
     HomeComponent,
     CadastroPetComponent,
-    CadastroDonoComponent
+    CadastroDonoComponent,
+    PerfilDonoComponent
   ],
   imports: [
     BrowserModule,

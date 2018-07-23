@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { PasseioComponent } from './passeio/passeio.component';
 import { CadastroPetComponent } from './cadastro-pet/cadastro-pet.component';
 import { CadastroDonoComponent } from './cadastro-dono/cadastro-dono.component';
+import { PerfilDonoComponent } from './perfil-dono/perfil-dono.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'higiene-verme', component: HigieneVermesComponent },
   { path: 'passeio', component: PasseioComponent },
   { path: 'new-pet', component: CadastroPetComponent },
-  { path: 'new-dono', component: CadastroDonoComponent}
+  { path: 'new-dono', component: CadastroDonoComponent},
+  { path: 'perfil', component: PerfilDonoComponent},
 ];
 
 @NgModule({
