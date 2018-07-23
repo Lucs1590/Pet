@@ -1,3 +1,22 @@
-<p>
-  perfil-dono works!
-</p>
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+<div id="divPrincipal">
+    <div id="divImg">
+        <img src="../assets/principal/perfil.jpg" id="imgPerfil" alt="FotoPerfil">
+    </div>
+    <div class="card" id="cardPrincipal">
+        <div class="card-body">
+            <h5 class="card-title">{{ DonoNome }}</h5>
+            <p class="card-text"><b>Data de Nascimento:</b> {{ DonoDtaNasc }}</p>
+            <p class="card-text"><b>Email: </b> {{ DonoEmail }}</p>
+            <p class="card-text"><b>Senha: </b> {{ DonoPass }}</p>
+        </div>
+    </div>
+    <h2>Animais</h2>
+    <div class="d-inline-flex justify-content-start divPet">
+        <a href="#">
+            <img src="../assets/principal/bjorn02.jpg" id="imgPet" alt="FotoPet">
+            <p>{{ PetNome }}</p>
+        </a>
+    </div>
+</div>
