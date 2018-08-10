@@ -45,4 +45,8 @@ export class CadastroDonoComponent implements OnInit {
       }
     }
   }
+
+  salvar() {
+    console.log('Ainda não ta salvando, mas relaxa!');
+  }
 }

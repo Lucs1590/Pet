@@ -1,26 +1,26 @@
 <div id="divPrincipal">
-    <form> <!-- (ngSubmit)="salvar()" -->
+    <form (ngSubmit)="salvar()"> <!-- (ngSubmit)="salvar()" -->
         <div class="form-group">
             <label for="nome">Nome</label>
-            <input type="text" class="form-control" name="nome" id="nome" placeholder="Richard Rasmussen" required>  <!-- [(ngModel)]="bebida.Bebida" -->
+            <input type="text" class="form-control" name="nome" id="nome" placeholder="Richard Rasmussen" required>  <!-- [(ngModel)]="Dono.donoNome" -->
         </div>
         <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>  <!-- [(ngModel)]="Dono.donoEmail -->
         </div>
         <div class="form-row">
             <div class="col">
                 <label for="senha">Senha</label>
-                <input type="password" class="form-control" id="senha" placeholder="Senha" required>
+                <input type="password" class="form-control" id="senha" placeholder="Senha" required>  <!-- [(ngModel)]="Dono.donoSenha -->
             </div>
             <div class="col">
                 <label for="confsenha">Confirmação de Senha</label>
-                <input type="password" class="form-control" id="confsenha" placeholder="Conf. de Senha" required>
+                <input type="password" class="form-control" id="confsenha" placeholder="Conf. de Senha" required>  
             </div>
         </div> 
         <div class="form-group">
                 <label for="dtaNasc">Data de Nascimento</label>
-                <input type="text" class="form-control" name="dtaNasc" id="dtaNasc" placeholder="27/04/1999" required>  <!-- [(ngModel)]="bebida.Bebida" -->
+                <input type="text" class="form-control" name="dtaNasc" id="dtaNasc" placeholder="27/04/1999" required>  <!-- [(ngModel)]="Dono.donoDataNasc" -->
         </div>
         <div class="form-group">
             <label for="img">Foto</label>
@@ -29,7 +29,6 @@
         <div class="form-group" id="divSalvar">
             <button type="button" class="btn" id="btnSalvar">Salvar</button>
         </div>
-
-        <canvas id="canvas" width="5" height="5"></canvas>
     </form>
+    <canvas id="canvas" width="5" height="5"></canvas>
   </div>
