@@ -14,37 +14,37 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mydb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": false
   },
   "Dono": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": true
   },
   "Animal": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": true
   },
   "Alimentacao": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": true
   }
 }
