@@ -24,10 +24,12 @@
         </div>
         <div class="form-group">
             <label for="img">Foto</label>
-            <input type="file" class="form-control-file" id="img">
+            <input type="file" class="form-control-file" id="img" (change)="inputFoto($event)">
         </div>
         <div class="form-group" id="divSalvar">
             <button type="button" class="btn" id="btnSalvar">Salvar</button>
         </div>
+
+        <canvas id="canvas" width="5" height="5"></canvas>
     </form>
   </div>
