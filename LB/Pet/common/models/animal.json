@@ -1,0 +1,35 @@
+{
+  "name": "Animal",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "animalNome": {
+      "type": "string",
+      "required": true
+    },
+    "animalDataNasc": {
+      "type": "date",
+      "required": true
+    },
+    "animalEspecie": {
+      "type": "string",
+      "required": true
+    },
+    "animalRaca": {
+      "type": "string"
+    },
+    "animalFotoPadrao": {
+      "type": "string"
+    },
+    "animalFotoLateral": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
