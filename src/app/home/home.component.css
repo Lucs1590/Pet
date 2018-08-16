@@ -20,9 +20,15 @@
 
 h1{
     color: #FFFF;
-    font-family: 'Arial Black', Helvetica, sans-serif
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
 }
-
+    
 b, h5{
     color: #79404F;
+}
+
+hr {
+    border-top: 3px solid #F1B8C7;;
+    width: 10%;
 }

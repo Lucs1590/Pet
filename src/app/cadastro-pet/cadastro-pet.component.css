@@ -28,3 +28,12 @@ input[type="text"], input[type="email"], input[type="password"], select, option 
     text-align: center;
     width: 5rem;
 }
+
+#imgSucesso{
+    height: 6.5rem;
+    width: 6.5rem;
+}
+
+.modal{
+    text-align: center;
+}

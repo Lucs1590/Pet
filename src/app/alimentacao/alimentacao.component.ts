@@ -12,6 +12,6 @@ export class AlimentacaoComponent implements OnInit {
   ngOnInit() {
   }
 
-  Data = '27/04/2018';
+  Data = '16/08/2018';
 
 }

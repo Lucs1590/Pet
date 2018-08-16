@@ -9,3 +9,12 @@ b, h5{
     background-color: #F1B8C7;
     border-radius: 10px;
 }
+
+a{
+    color: #79404F;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    color: #F10F49;
+}
