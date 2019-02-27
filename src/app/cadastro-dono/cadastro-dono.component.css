@@ -27,3 +27,9 @@ input[type="text"], input[type="email"], input[type="password"] {
     text-align: center;
     width: 5rem;
 }
+
+#divForms{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}

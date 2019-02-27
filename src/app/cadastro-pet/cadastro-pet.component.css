@@ -37,3 +37,9 @@ input[type="text"], input[type="email"], input[type="password"], select, option 
 .modal{
     text-align: center;
 }
+
+#divForms{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
