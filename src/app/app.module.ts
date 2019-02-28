@@ -11,6 +11,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { CadastroPetComponent } from './cadastro-pet/cadastro-pet.component';
 import { CadastroDonoComponent } from './cadastro-dono/cadastro-dono.component';
 import { PerfilDonoComponent } from './perfil-dono/perfil-dono.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PerfilDonoComponent } from './perfil-dono/perfil-dono.component';
     HomeComponent,
     CadastroPetComponent,
     CadastroDonoComponent,
-    PerfilDonoComponent
+    PerfilDonoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

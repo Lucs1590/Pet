@@ -8,6 +8,7 @@ import { PasseioComponent } from './passeio/passeio.component';
 import { CadastroPetComponent } from './cadastro-pet/cadastro-pet.component';
 import { CadastroDonoComponent } from './cadastro-dono/cadastro-dono.component';
 import { PerfilDonoComponent } from './perfil-dono/perfil-dono.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'new-pet', component: CadastroPetComponent },
   { path: 'new-dono', component: CadastroDonoComponent},
   { path: 'perfil', component: PerfilDonoComponent},
+  { path: 'login', component: LoginComponent}
 ];
 
 @NgModule({
