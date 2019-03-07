@@ -13,6 +13,7 @@ import { CadastroDonoComponent } from './cadastro-dono/cadastro-dono.component';
 import { PerfilDonoComponent } from './perfil-dono/perfil-dono.component';
 import { LoginComponent } from './login/login.component';
 import { RelatorioAlimentacaoComponent } from './relatorio-alimentacao/relatorio-alimentacao.component';
+import { AuthGuard } from './auth.guard.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { RelatorioAlimentacaoComponent } from './relatorio-alimentacao/relatorio
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
