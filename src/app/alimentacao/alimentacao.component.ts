@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-alimentacao',
@@ -7,11 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlimentacaoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _router: Router) { }
 
   ngOnInit() {
   }
 
   Data = '16/08/2018';
+
+  toReport() {
+    this._router.navigate(['/relatorio-alimentacao']);
+  }
 
 }

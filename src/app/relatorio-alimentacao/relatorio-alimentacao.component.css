@@ -1,0 +1,28 @@
+#divPrincipal{
+    text-align:center;
+    background-color:#A9596E;
+    min-height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #FFFF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+hr {
+    border-top: 3px solid #F1B8C7;;
+    width: 10%;
+}
+
+#divPlanilha{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+td{
+    font-size: 2rem;
+}
