@@ -6,10 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  title = 'PET!';
-  PetNome = 'BJORN';
-  PetRaca = 'Border Collie';
-  PetDtaNasc = '25/11/2016';
+
   constructor() { }
 
   ngOnInit() {

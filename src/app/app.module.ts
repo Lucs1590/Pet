@@ -14,6 +14,7 @@ import { PerfilDonoComponent } from './perfil-dono/perfil-dono.component';
 import { LoginComponent } from './login/login.component';
 import { RelatorioAlimentacaoComponent } from './relatorio-alimentacao/relatorio-alimentacao.component';
 import { AuthGuard } from './auth.guard.service';
+import { AnimaisComponent } from './animais/animais.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AuthGuard } from './auth.guard.service';
     CadastroDonoComponent,
     PerfilDonoComponent,
     LoginComponent,
-    RelatorioAlimentacaoComponent
+    RelatorioAlimentacaoComponent,
+    AnimaisComponent
   ],
   imports: [
     BrowserModule,

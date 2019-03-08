@@ -1,34 +1,7 @@
-#cardPrincipal{
-    border-width: 2px;
-    width: 17.15rem;
-    left: 50%;
-    margin-left: -8.57rem;
-}
-
 #divPrincipal{
     text-align:center;
     background-color:#A9596E;
     min-height: 100%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#imgPrincipal{
-    height:22.5rem;
-    width:16.87rem;
-}
-
-h1{
-    color: #FFFF;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-}
-    
-b, h5{
-    color: #79404F;
-}
-
-hr {
-    border-top: 3px solid #F1B8C7;;
-    width: 10%;
 }
