@@ -1,16 +1,32 @@
 <div id="divPrincipal">
-  <h1>
-    Bem vindo ao {{ title }}
-  </h1>
-  <hr>
-  <div class="card" id="cardPrincipal">
-    <img class="card-img-top" src="../assets/principal/bjorn02.jpg"  id="imgPrincipal" alt="Imagem Principal">
-    <div class="card-body">
-        <h5 class="card-title">{{ PetNome }}</h5>
-        <p class="card-text"><b>Raça:</b> {{ PetRaca }}</p>
-        <p class="card-text"><b>Data de Nascimento:</b> {{ PetDtaNasc }}</p>
+    <h1>
+        Bem vindo ao {{ title }}
+    </h1>
+    <hr>
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active"> <!-- Colocar o ngif aqui -->
+                <div class="card" id="cardPrincipal">
+                    <img class="card-img-top" src="../assets/principal/bjorn02.jpg" id="imgPrincipal"
+                        alt="Imagem Principal">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ PetNome }}</h5>
+                        <p class="card-text"><b>Raça:</b> {{ PetRaca }}</p>
+                        <p class="card-text"><b>Data de Nascimento:</b> {{ PetDtaNasc }}</p>
+                        <input type="checkbox" id="almoco" name="almoco" class="regular-checkbox big-checkbox" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Proximo</span>
+        </a>
     </div>
-  </div>
-  <br>
-  <br>
+    <br>
+    <br>
 </div>
