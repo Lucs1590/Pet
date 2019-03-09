@@ -14,5 +14,4 @@ export class AnimaisComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

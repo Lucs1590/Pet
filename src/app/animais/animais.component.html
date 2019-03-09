@@ -3,7 +3,7 @@
         Bem vindo ao {{ title }}
     </h1>
     <hr>
-    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="60000">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <!-- Colocar o ngif aqui -->
@@ -32,3 +32,10 @@
     <br>
     <br>
 </div>
+<script type="text/javascript">
+    $('.carousel').carousel({
+        pause: true,
+        interval: false,
+        keyboard: false
+    });
+</script>
