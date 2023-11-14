@@ -57,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Pet:build"
+            "buildTarget": "Pet:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Pet:build:production"
+              "buildTarget": "Pet:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Pet:build"
+            "buildTarget": "Pet:build"
           }
         },
         "test": {
